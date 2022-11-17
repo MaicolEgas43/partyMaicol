@@ -1,0 +1,85 @@
+.titulo1{
+    background-color: blue;
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+}
+.titulo2{
+    font-family: 'Acme', sans-serif;
+    color: aliceblue;
+    font-size: larger;
+}
+.titulo3{
+    font-family: 'Mukta', sans-serif;
+    color: aliceblue;
+    font-size: larger;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+body{
+    /*background-image: url(https://media.tenor.com/HJvqN2i4Zs4AAAAj/milk-and-mocha-cute.gif);*/
+    background-color: rgb(37, 37, 37);
+    background-image: url(https://i.blogs.es/336ab7/wallpaper/1366_2000.webp);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    /*background-attachment:fixed;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.blogs.es/336ab7/wallpaper/1366_2000.webp");;
+    
+}
+.Link{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.numero{
+    text-align: center;
+    position: relative;
+}
+table{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+.table{
+    border-collapse: collapse;
+
+}
+
+.table td{
+    
+    border: 1px solid;
+    text-align: center;
+    font-size: 2em;
+}
+
+.table th{
+    color: aliceblue;
+    font-size: 2em;
+    
+}
+.table th:hover{
+    background-color: rgb(41, 40, 40);
+    color: aliceblue;
+}
+.table td:hover{
+    background-color: rgb(41, 40, 40);
+    color: aliceblue;
+}
+.table tr{
+    color:azure ;
+}
+.table caption{
+    font-size: 4em;
+    margin: 5% 5% 5% 5%;
+}
